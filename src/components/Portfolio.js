@@ -6,6 +6,7 @@ import project1 from "../images/interbot.png";
 import project2 from "../images/todolist.png";
 import project3 from "../images/weatherapp2.png";
 import project4 from "../images/portfolio.png";
+import project5 from "../images/vacationdetective.png";
 
 const useStyles = makeStyles({
     mainContainer: {
@@ -111,8 +112,8 @@ const Portfolio = () => {
                             </CardActions>
                     </Card>
                 </Grid>
-                                 {/* Project 4 */}
-                                 <Grid item xs={12} sm={8} md={6}>
+                        {/* Project 4 */}
+                    <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
                         <CardActionArea>
                             <CardMedia component="img" alt="Project 4" height="140" image={project4}
@@ -130,6 +131,32 @@ const Portfolio = () => {
                             <CardActions className={classes.singleButtonContainer}>
                                 <Button target="_blank" href="https://github.com/katiemhughes/portfolio-website" size="small" color="primary">
                                     Github source code
+                                </Button>
+                            </CardActions>
+                    </Card>
+                </Grid>
+                    {/* Project 5 */}
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia component="img" alt="Project 5" height="140" image={project5}
+
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    The Vacation Detective
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    A travel app which makes destination suggestions based on your preferences. Made with the MERN stack.
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                            <CardActions className={classes.singleButtonContainer}>
+                                <Button target="_blank" href="https://github.com/katiemhughes/thevacationdetective" size="small" color="primary">
+                                    Github source code
+                                </Button>
+                                <Button target="_blank" href="https://thevacationdetective.herokuapp.com/" size="small" color="primary">
+                                    Live demo
                                 </Button>
                             </CardActions>
                     </Card>
