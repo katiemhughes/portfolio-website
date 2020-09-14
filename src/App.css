@@ -4,48 +4,25 @@
 html {
   height: 100%;
   margin: 0;
+  background-color: black;
 }
 
 body {
   margin: 0;
   height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 .App {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
-  background-color: black;
-  display: flex;
-  height: calc( 100vh - 30px);
-  margin: 0;
+  min-height: 150vh;
 }
 
-.portfolioPage {
-  color: white;
-}
-
-.intro {
-  font-family: 'Playfair Display', serif;
-  font-size: 83px;
-  color: white;
-  text-align: left;
-  width: 50vw;
-  text-align: right;
-  margin: 80px;
-  height: 100%;
-}
-
-.introWrapper {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.aboutMe {
-  background-color: black;
-  color: white;
-  height: 100px;
-  width: 100%;
-}
-
-.purpleCharacters {
-  color: #ecbcfd;
+.mainContent {
+  flex: 1;
 }

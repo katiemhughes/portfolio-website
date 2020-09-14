@@ -1,0 +1,57 @@
+.aboutContainer {
+    height: 100vh;
+    width: 100%;
+    padding-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    flex: 1;
+}
+
+.columnOne {
+    height: 100vh;
+}
+
+.columnTwo {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+    width: 40vw;
+  }
+
+.columnTwo a.aboutLinks:hover { 
+    text-decoration: none; color:#ecbcfd 
+}
+
+.columnTwo a.aboutLinks:visited { 
+    text-decoration: none; color:#ecbcfd 
+}
+
+.aboutMePic {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 1%;
+}
+
+@media screen and (max-width: 960px) {
+    .columnTwo {
+      font-size: 16px;
+    }
+}
