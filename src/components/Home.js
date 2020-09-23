@@ -2,12 +2,6 @@ import React from 'react';
 import "./Home.css";
 import Typical from "react-typical";
 import Portrait from "../images/alexsolmanportrait.jpg";
-import ExpressLogo from "../images/expressjs.png";
-import NodejsLogo from "../images/nodejs.png";
-import JSLogo from "../images/js.png";
-import ReactLogo from "../images/reactjs.png"
-import MongodbLogo from "../images/mongodb.png";
-import PythonLogo from "../images/python.png";
 
 function Home() {
     return (
@@ -38,14 +32,6 @@ function Home() {
                     <span className="purpleCharacters">.</span>
                     </p>
                     <img src={Portrait} className="portrait" alt="Illustration of me by Alex Solman" />
-            </div>
-            <div className="logos-container">
-                <img src={JSLogo} className="js-logo" alt="Javascript logo" />
-                <img src={NodejsLogo} className="nodejs-logo" alt="Node.js logo" />
-                <img src={ExpressLogo} className="express-logo" alt="ExpressJS logo" />
-                <img src={ReactLogo} className="react-logo" alt="React JS logo" />
-                <img src={MongodbLogo} className="mongodb-logo" alt="MongoDB logo" />
-                <img src={PythonLogo} className="python-logo" alt="Python logo" />                     
             </div>
         </div>
     )

@@ -29,6 +29,9 @@ function Navbar() {
                             <Link className="textLink" to="/about" onClick={closeMobileMenu}>About</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="textLink" to="/stack" onClick={closeMobileMenu}>Tech Stack</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="textLink" to="/portfolio" onClick={closeMobileMenu}>Portfolio</Link>
                         </li>
                     </ul>

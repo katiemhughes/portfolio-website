@@ -21,11 +21,20 @@ const useStyles = makeStyles({
         margin: "8rem auto"
     },
     buttonContainer: {
-        padding: "3.5%"
+        padding: "6%"
     },
     singleButtonContainer: {
         paddingTop: "7%",
-        paddingLeft: "23.5%"
+        paddingLeft: "7%"
+    },
+    portfolioButtonContainer: {
+        paddingTop: "7%",
+        paddingLeft: "23%"
+    },
+    interbotButtonContainer: {
+        paddingTop: "-7%",
+        paddingBottom: "10%",
+        paddingLeft: "6%"
     }
 });
 
@@ -50,7 +59,7 @@ const Portfolio = () => {
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
-                            <CardActions className={classes.buttonContainer}>
+                            <CardActions className={classes.interbotButtonContainer}>
                                 <Button target="_blank" href="https://github.com/katiemhughes/feminist-chatbot" size="small" color="primary">
                                     Github source code
                                 </Button>
@@ -128,7 +137,7 @@ const Portfolio = () => {
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
-                            <CardActions className={classes.singleButtonContainer}>
+                            <CardActions className={classes.portfolioButtonContainer}>
                                 <Button target="_blank" href="https://github.com/katiemhughes/portfolio-website" size="small" color="primary">
                                     Github source code
                                 </Button>
