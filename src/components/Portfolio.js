@@ -18,7 +18,6 @@ const useStyles = makeStyles({
         maxWidth: 300,
         height: 340,
         margin: "3rem",
-        margin: "8rem auto"
     },
     buttonContainer: {
         padding: "6%"
