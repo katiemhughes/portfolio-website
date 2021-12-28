@@ -10,7 +10,6 @@ function Home() {
                 <h1>Hello<span className="purpleCharacters">,</span> I'm Katie<span className="purpleCharacters">.</span></h1>
                     <p className="typicalText">
                     I'm {" "}
-
                     <Typical
                         loop={Infinity}
                         wrapper="b"
